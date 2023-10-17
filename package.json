@@ -1,0 +1,44 @@
+{
+  "name": "camo",
+  "version": "0.12.4",
+  "description": "A class-based ES6 ODM for Mongo-like databases.",
+  "keywords": [
+    "es6",
+    "odm",
+    "mongodb",
+    "nedb",
+    "nosql",
+    "document",
+    "model",
+    "schema",
+    "database",
+    "data",
+    "datastore",
+    "query",
+    "db"
+  ],
+  "homepage": "https://github.com/ale4ko69/camo",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ale4ko69/camo.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "depd": "2.0.0",
+    "lodash": "4.17.21"
+  },
+  "optionalDependencies": {
+    "mongodb": "6.1.0",
+    "nedb": "1.8.0"
+  },
+  "devDependencies": {
+    "chai": "4.3.10",
+    "mocha": "10.2.0"
+  }
+}
